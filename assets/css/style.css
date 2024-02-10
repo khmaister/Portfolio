@@ -82,7 +82,7 @@ a {
     background-color: aqua;
     border-radius: 10px;
 }
-h2 {
+h2{
     display: flex;
     justify-content: left;
     text-align: left;
@@ -103,17 +103,7 @@ h2 {
     align-items: stretch;
     min-width: 0px;
 }
-.flex-container h2 {
-    display: flex;
-    justify-content: left;
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
-    font-size: 200%;
-    border-right: 10px solid aqua;
 
-
-}
 .main-card{
     display: flex;
     flex-wrap: wrap;
@@ -156,4 +146,8 @@ img{
 }
 .imageformat{
     object-fit: contain;
+}
+.contact{
+    background-color:#0044ff;
+    font-size: 25px;
 }
