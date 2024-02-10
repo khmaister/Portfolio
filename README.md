@@ -4,7 +4,8 @@
 
 ## Description
 This is a personalized Portfolio webpage for myself. Created to hone my HTML and CSS skills.
-
+## Live Link
+https://khmaister.github.io/Portfolio/
 ## Usage
 Potential Employers can view this page and get an idea of my coding skills. At the top right corner is a list of sections whick the user can click and be transported to that section on the webpage.
 
