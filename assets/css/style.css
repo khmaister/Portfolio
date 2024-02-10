@@ -9,19 +9,21 @@
   /* Element selectors */
 body {
     background-color: rgba(224, 224, 224, 0.747);
+    display: flex;
+    flex-direction: column;
 }
   
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #000000;
-    background-color: #811616;
+    background-color: #0044ff;
 
 }
 .header h1 {
     display: inline-block;
     font-size: 68px;
-    background-color: #e9e3e3;
+    background-color: aqua;
     border-radius: 5px;
     padding: 10px;
 }
@@ -42,19 +44,116 @@ body {
 a {
     color: whitesmoke;
 }
+.quote {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    gap: 10px 10px;
+    margin: 20px;
+    padding: 10px;
+    background-image: url(../images/circuit-board.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
 
-figure {
-    width: 200px;
-    background-color: #f0ead6;
 }
-  
-/* Class selector */
-.highlighted-text {
-    font-weight: bolder;
+.quote h1 {
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    
 }
-  
-/* ID selector */
-#contact-section {
-    background-color: #f0ead6;
+/*.about-me {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, auto);
+    gap: 10px 10px;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}*/
+.about-me p {
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
 }
-  
+h2 {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 200%;
+    border-right: 10px solid aqua;
+}
+.apps{
+    display: block;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    min-width: 0px;
+}
+.flex-container h2 {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 200%;
+    border-right: 10px solid aqua;
+
+
+}
+.main-card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    min-width: 180px;
+    border: 10px solid rgb(134, 183, 228);
+    align-items: stretch;
+    background-color: aliceblue;
+}
+.main-card a,
+.sub-card a {
+    color: #000000;
+}
+.sub-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50px;
+    border: 3px solid rgb(134, 183, 228);
+    margin: 4px;
+    align-items: stretch;
+    min-width: 500px;
+
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #0044ff;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+img{
+    align-self: flex-start;
+     width: 100%
+}
+.imageformat{
+    object-fit: contain;
+}
